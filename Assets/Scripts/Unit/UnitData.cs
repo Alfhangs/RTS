@@ -15,7 +15,7 @@ public class UnitData : ScriptableObject
     public float Defense;
     public float WalkSpeed;
     public float AttackSpeed;
-    //public Color SelectedColor;
+    public Color SelectedColor;
     //public ActionType Actions;
     //public string AnimationStateAttack01;
     //public string AnimationStateAttack02;

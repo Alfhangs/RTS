@@ -372,8 +372,10 @@
 "Assets/Scripts/Spawner/BaseSpawner.cs"
 "Assets/Scripts/Spawner/BasicWarriorSpawner.cs"
 "Assets/Scripts/UI/ResourceUpdater.cs"
+"Assets/Scripts/UI/Unit/UnitSelectorUI.cs"
 "Assets/Scripts/Unit/UnitComponent.cs"
 "Assets/Scripts/Unit/UnitData.cs"
+"Assets/Scripts/Unit/UnitSelectorComponent.cs"
 "Assets/Scripts/Unit/UnitType.cs"
 -langversion:9.0
 

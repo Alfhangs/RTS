@@ -13,7 +13,7 @@ public class ObjectPoolComponent : MonoBehaviour
     {
         for (int i = 0; i < poolSize; i++)
         {
-            gameObjects.Add(CreateItem(false));
+            gameObjects.Add(CreateItem(true));
         }
     }
 

@@ -35,4 +35,5 @@ public class BasicWarriorSpawner : BaseSpawner
         unit.WalkSpeed = _unitData.WalkSpeed;
         unit.AttackSpeed = _unitData.AttackSpeed;
     }
+
 }
