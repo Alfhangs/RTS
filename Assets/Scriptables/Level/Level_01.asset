@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea176c39963930b4c82a4ce915b00d6c, type: 3}
+  m_Name: Level_01
+  m_EditorClassIdentifier: 
+  Slots:
+  - ItemType: 1
+    Coordinates: {x: 0, y: 0}
+  - ItemType: 1
+    Coordinates: {x: 0, y: 1}
+  - ItemType: 1
+    Coordinates: {x: 0, y: 2}
+  - ItemType: 0
+    Coordinates: {x: 0, y: 3}
+  - ItemType: 0
+    Coordinates: {x: 0, y: 4}
+  - ItemType: 1
+    Coordinates: {x: 1, y: 0}
+  - ItemType: 1
+    Coordinates: {x: 1, y: 1}
+  - ItemType: 1
+    Coordinates: {x: 1, y: 2}
+  - ItemType: 0
+    Coordinates: {x: 1, y: 3}
+  - ItemType: 0
+    Coordinates: {x: 1, y: 4}
+  - ItemType: 1
+    Coordinates: {x: 2, y: 0}
+  - ItemType: 3
+    Coordinates: {x: 2, y: 1}
+  - ItemType: 3
+    Coordinates: {x: 2, y: 2}
+  - ItemType: 0
+    Coordinates: {x: 2, y: 3}
+  - ItemType: 0
+    Coordinates: {x: 2, y: 4}
+  - ItemType: 0
+    Coordinates: {x: 3, y: 0}
+  - ItemType: 0
+    Coordinates: {x: 3, y: 1}
+  - ItemType: 3
+    Coordinates: {x: 3, y: 2}
+  - ItemType: 0
+    Coordinates: {x: 3, y: 3}
+  - ItemType: 3
+    Coordinates: {x: 3, y: 4}
+  - ItemType: 0
+    Coordinates: {x: 4, y: 0}
+  - ItemType: 2
+    Coordinates: {x: 4, y: 1}
+  - ItemType: 0
+    Coordinates: {x: 4, y: 2}
+  - ItemType: 0
+    Coordinates: {x: 4, y: 3}
+  - ItemType: 2
+    Coordinates: {x: 4, y: 4}
+  Columns: 5
+  Rows: 5
+  Configuration: {fileID: 11400000, guid: ee03125e703ff2846bc5e13105e2d61a, type: 2}
