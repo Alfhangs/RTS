@@ -358,7 +358,6 @@
 "Assets/Scripts/Configuration/LevelItemType.cs"
 "Assets/Scripts/Debugger/ResourceDebugger.cs"
 "Assets/Scripts/Debugger/UnitDebugger.cs"
-"Assets/Scripts/Destroy/MeshDestroy.cs"
 "Assets/Scripts/Level/LevelComponent.cs"
 "Assets/Scripts/Level/LevelData.cs"
 "Assets/Scripts/Level/LevelManager.cs"

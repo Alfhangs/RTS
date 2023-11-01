@@ -74,7 +74,6 @@
     <Compile Include="Assets\Scripts\Level\LevelSlot.cs" />
     <Compile Include="Assets\Scripts\Debugger\ResourceDebugger.cs" />
     <Compile Include="Assets\Scripts\Configuration\LevelConfiguration.cs" />
-    <Compile Include="Assets\Scripts\Destroy\MeshDestroy.cs" />
     <Compile Include="Assets\Scripts\Configuration\LevelItemType.cs" />
     <Compile Include="Assets\Scripts\Resource\ResourceType.cs" />
     <Compile Include="Assets\Scripts\Unit\UnitData.cs" />
