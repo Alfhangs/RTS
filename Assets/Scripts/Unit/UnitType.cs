@@ -6,6 +6,6 @@ using UnityEngine;
 [Serializable]
 public enum UnitType 
 {
-    Warrios,
+    Warrior,
     Mage
 }

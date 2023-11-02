@@ -25,15 +25,16 @@ public class BasicWarriorSpawner : BaseSpawner
         {
             unit = warrior.GetComponent<UnitComponent>();
         }
-        unit.ID = _unitData.ToString();
-        unit.Type = _unitData.Type;
-        unit.Level = _unitData.Level;
-        unit.LevelMultiplier = _unitData.LevelMultiplier;
-        unit.Health = _unitData.Health;
-        unit.Attack = _unitData.Attack;
-        unit.Defense = _unitData.Defense;
-        unit.WalkSpeed = _unitData.WalkSpeed;
-        unit.AttackSpeed = _unitData.AttackSpeed;
+        unit.CopyData(_unitData);
+        //unit.ID = _unitData.ToString();
+        //unit.type = _unitData.Type;
+        //unit.level = _unitData.Level;
+        //unit.levelMultiplier = _unitData.LevelMultiplier;
+        //unit.health = _unitData.Health;
+        //unit.attack = _unitData.Attack;
+        //unit.defense = _unitData.Defense;
+        //unit.walkSpeed = _unitData.WalkSpeed;
+        //unit.attackSpeed = _unitData.AttackSpeed;
     }
 
 }

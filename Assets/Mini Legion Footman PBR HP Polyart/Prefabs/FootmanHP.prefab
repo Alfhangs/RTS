@@ -933,12 +933,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 
-  Type: 0
-  Level: 1
-  LevelMultiplier: 0
-  Health: 0
-  Attack: 0
-  Defense: 0
-  WalkSpeed: 5
-  AttackSpeed: 0
+  type: 0
+  level: 1
+  levelMultiplier: 1.2
+  health: 5
+  attack: 2
+  defense: 1
+  walkSpeed: 10
+  attackSpeed: 5
   selectedColor: {r: 0.33940902, g: 0.63461185, b: 0.7924528, a: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  attackRange: 0
+  Actions: 15

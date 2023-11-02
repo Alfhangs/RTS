@@ -14,11 +14,11 @@ namespace Debugger
             MessageQueueManager.Instance.SendMessage(new BasicWarriorSpawnMessage());
         }
 
-        //// Creates a shortcute for Ctrl+H (or Cmd+H on macOS)
-        //[MenuItem("Dragoncraft/Debug/Unit/Spawn Mage %h")]
-        //private static void SpawnMage()
-        //{
-        //    MessageQueueManager.Instance.SendMessage(new BasicMageSpawnMessage());
-        //}
+        // Creates a shortcute for Ctrl+H (or Cmd+H on macOS)
+        [MenuItem("RTS/Debug/Unit//Spawn Mage %h")]
+        private static void SpawnMage()
+        {
+            MessageQueueManager.Instance.SendMessage(new BasicMageSpawnMessage());
+        }
     }
 }

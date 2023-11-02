@@ -1,6 +1,9 @@
+using Configuration;
+using Message.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class UnitSelectorComponent : MonoBehaviour
 {
@@ -24,6 +27,11 @@ public class UnitSelectorComponent : MonoBehaviour
 
     private void Update()
     {
+
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             _startPosition = GetMousePosition();
@@ -77,6 +85,13 @@ public class UnitSelectorComponent : MonoBehaviour
     }
     private void MoveSelectedUnits(Vector3 movePosition)
     {
+        if (units.Count == 0)
+        {
+            MessageQueueManager.Instance.SendMessage(new UpdateDetailsMessage { Units = units, Model = null });
+            MessageQueueManager.Instance.SendMessage(new UpdateActionsMessage { Actions = ActionType.None });
+            return;
+        }
+
         int rows = Mathf.RoundToInt(Mathf.Sqrt(units.Count));
         int counter = 0;
         for (int i = 0; i < units.Count; i++)
