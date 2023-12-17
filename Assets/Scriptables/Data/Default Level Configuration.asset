@@ -15,7 +15,10 @@ MonoBehaviour:
   levelItems:
   - Type: 1
     Prefab: {fileID: 392301941098027468, guid: 26a7df6f8a3a97449a4aa8df4ca542bb, type: 3}
+    CollisionType: 2
   - Type: 2
     Prefab: {fileID: 592553747164513764, guid: 4192253cdace4d9478b00ad208ffb3bb, type: 3}
+    CollisionType: 2
   - Type: 3
     Prefab: {fileID: 8452630954510184960, guid: 75692ebdbf44b0d46a6a6a481871d166, type: 3}
+    CollisionType: 2

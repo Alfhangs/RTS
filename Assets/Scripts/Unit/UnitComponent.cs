@@ -1,11 +1,10 @@
 using Configuration;
-using System;
 using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider), typeof(Animator))]
 public class UnitComponent : MonoBehaviour
 {
-    public string ID;
+    //public string ID;
     public UnitType type;
     public int level;
     public float levelMultiplier;
@@ -19,21 +18,21 @@ public class UnitComponent : MonoBehaviour
     public float attackRange;
     public ActionType Actions;
 
-    private Animator animator;
-    private Renderer myRenderer;
-    private Vector3 movePosition;
-    private bool shouldMove;
-    private bool shouldAttack;
-    private float attackCooldown;
-    private ActionType action;
-    private UnitData unitData;
-    private float minDistance = 0.5f;
+    private Animator _animator;
+    private Renderer _myRenderer;
+    private Vector3 _movePosition;
+    private bool _shouldMove;
+    private bool _shouldAttack;
+    private float _attackCooldown;
+    private ActionType _action;
+    [SerializeField] private UnitData _unitData;
+    private float _minDistance = 0.5f;
 
     private void Awake()
     {
-        myRenderer = GetComponentInChildren<Renderer>();
-        animator = GetComponent<Animator>();
-        animator.Play("Idle");
+        _myRenderer = GetComponentInChildren<Renderer>();
+        _animator = GetComponent<Animator>();
+        _animator.Play("Idle");
     }
 
     private void OnEnable()
@@ -48,55 +47,54 @@ public class UnitComponent : MonoBehaviour
 
     private void OnActionCommandReceived(ActionCommandMessage message)
     {
-        action = message.Action;
-        shouldAttack = false;
-    }
-
-    private void Update()
-    {
-        if (!shouldMove)
-        {
-            //Debug.Log("A");
-            return;
-        }
-        if (Vector3.Distance(transform.position, movePosition) < 0.5f)
-        {
-            //Debug.Log("A");
-            animator.Play("Idle");
-            shouldMove = false;
-            return;
-        }
-        Vector3 pos = (movePosition - transform.position).normalized;
-        transform.position += pos * Time.deltaTime * walkSpeed;
+        _action = message.Action;
+        _shouldAttack = false;
     }
 
     //private void Update()
     //{
-    //    switch (action)
+    //    if (!shouldMove)
     //    {
-    //        case ActionType.Attack:
-    //            UpdateAttack();
-    //            break;
-    //        case ActionType.Defense:
-    //            UpdateDefense();
-    //            break;
-    //        case ActionType.Move:
-    //            UpdateMovement();
-    //            break;
-    //        case ActionType.Collect:
-    //            UpdateCollect();
-    //            break;
-    //        case ActionType.Build:
-    //        case ActionType.Upgrade:
-    //        case ActionType.None:
-    //        default:
-    //            EnableMovement(false);
-    //            break;
+    //        //Debug.Log("A");
+    //        return;
     //    }
+    //    if (Vector3.Distance(transform.position, movePosition) < 0.5f)
+    //    {
+    //        //Debug.Log("A");
+    //        animator.Play("Idle");
+    //        shouldMove = false;
+    //        return;
+    //    }
+    //    Vector3 pos = (movePosition - transform.position).normalized;
+    //    transform.position += pos * Time.deltaTime * walkSpeed;
     //}
+
+    private void Update()
+    {
+        switch (_action)
+        {
+            case ActionType.Attack:
+                UpdateAttack();
+                break;
+            case ActionType.Defense:
+                UpdateDefense();
+                break;
+            case ActionType.Move:
+                UpdateMovement();
+                break;
+            case ActionType.Collect:
+                UpdateCollect();
+                break;
+            case ActionType.Build:
+            case ActionType.Upgrade:
+            case ActionType.None:
+            default:
+                EnableMovement(false);
+                break;
+        }
+    }
     public void CopyData(UnitData unitData)
     {
-        ID = Guid.NewGuid().ToString();
         type = unitData.Type;
         level = unitData.Level;
         levelMultiplier = unitData.LevelMultiplier;
@@ -110,18 +108,18 @@ public class UnitComponent : MonoBehaviour
         attackRange = unitData.AttackRange;
         Actions = unitData.Actions;
 
-        this.unitData = unitData;
-        shouldMove = false;
-        //EnableMovement(false);
+        this._unitData = unitData;
+        _shouldMove = false;
+        EnableMovement(false);
     }
     public void Selected(bool selected)
     {
-        if (myRenderer == null)
+        if (_myRenderer == null)
         {
             Debug.LogError("Renderer component is missing!");
             return;
         }
-        Material[] materials = myRenderer.materials;
+        Material[] materials = _myRenderer.materials;
         foreach (Material material in materials)
         {
             if (selected)
@@ -138,36 +136,40 @@ public class UnitComponent : MonoBehaviour
     public void MoveTo(Vector3 position)
     {
         transform.LookAt(position);
-        movePosition = position;
-        animator.Play("Run");
-        shouldMove = true;
-        //EnableMovement(true);
+        _movePosition = position;
+
+        EnableMovement(true);
     }
 
     private void EnableMovement(bool enabled)
     {
         if (enabled)
         {
-            animator.Play(unitData.GetAnimationState(UnitAnimationState.Move));
+            PlayAnimation(UnitAnimationState.Move);
         }
         else
         {
-            //animator.Play(unitData.GetAnimationState(UnitAnimationState.Idle));
+            PlayAnimation(UnitAnimationState.Idle);
         }
-        shouldMove = enabled;
+        _shouldMove = enabled;
     }
-
+    private void PlayAnimation(UnitAnimationState animationState)
+    {
+        // Debug.Log(unitData.GetAnimationState(animationState));
+        //UnitData = null.... Why?
+        _animator.Play(_unitData.GetAnimationState(animationState));
+    }
     private void UpdateAttack()
     {
         UnitAnimationState attackState = (UnityEngine.Random.value < 0.5f) ? UnitAnimationState.Attack01 : UnitAnimationState.Attack02;
-        UpdatePosition(minDistance + attackRange, attackState);
+        UpdatePosition(_minDistance + attackRange, attackState);
 
-        if (!shouldAttack ||  attackRange <= 0)
+        if (!_shouldAttack || attackRange <= 0)
         {
             return;
         }
-        attackCooldown -= Time.deltaTime;
-        if (attackCooldown < 0)
+        _attackCooldown -= Time.deltaTime;
+        if (_attackCooldown < 0)
         {
             MessageQueueManager.Instance.SendMessage(
             new FireballSpawnMessage
@@ -175,33 +177,33 @@ public class UnitComponent : MonoBehaviour
                 Position = transform.position,
                 Rotation = transform.rotation,
                 Damage = attack
-            }); ;
-            attackCooldown = attackSpeed;
+            });
+            _attackCooldown = attackSpeed;
         }
     }
     private void UpdateDefense()
     {
-        UpdatePosition(minDistance, UnitAnimationState.Defense);
+        UpdatePosition(_minDistance, UnitAnimationState.Defense);
     }
     private void UpdateMovement()
     {
-        UpdatePosition(minDistance, UnitAnimationState.Move);
+        UpdatePosition(_minDistance, UnitAnimationState.Move);
     }
     private void UpdateCollect()
     {
-        UpdatePosition(minDistance, UnitAnimationState.Collect);
+        UpdatePosition(_minDistance, UnitAnimationState.Collect);
     }
     private void UpdatePosition(float range, UnitAnimationState state)
     {
-        if (!shouldMove)
+        if (!_shouldMove)
         {
             return;
         }
-        if (Vector3.Distance(transform.position, movePosition) < range)
+        if (Vector3.Distance(transform.position, _movePosition) < range)
         {
-            animator.Play(unitData.GetAnimationState(state));
-            shouldMove = false;
-            shouldAttack = true;
+            _animator.Play(_unitData.GetAnimationState(state));
+            _shouldMove = false;
+            _shouldAttack = true;
             return;
         }
         UpdatePosition();
@@ -209,22 +211,22 @@ public class UnitComponent : MonoBehaviour
 
     protected virtual void UpdatePosition()
     {
-        Vector3 direction = (movePosition - transform.position).normalized;
+        Vector3 direction = (_movePosition - transform.position).normalized;
         transform.position += direction * Time.deltaTime * walkSpeed;
     }
 
     protected Vector3 GetFinalPosition()
     {
-        return movePosition;
+        return _movePosition;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    protected virtual void OnCollisionEnter(Collision collision)
     {
-        Debug.Log($"name: {collision.gameObject.name} tag: {collision.gameObject.tag}");
         if (!collision.gameObject.CompareTag("Plane"))
         {
-            //animator.Play(unitData.GetAnimationState(UnitAnimationState.Idle));
-            shouldMove = false;
+            Debug.Log(_unitData.name);
+            _animator.Play(_unitData.GetAnimationState(UnitAnimationState.Idle));
+            _shouldMove = false;
         }
     }
 }

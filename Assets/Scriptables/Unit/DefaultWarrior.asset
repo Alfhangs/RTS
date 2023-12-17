@@ -27,7 +27,7 @@ MonoBehaviour:
   AnimationStateDefense: Victory
   AnimationStateMove: Run
   AnimationStateIdle: Idle
-  AnimationStateCollect: Gethit
+  AnimationStateCollect: GetHit
   AnimationStateDeath: Death
   OriginalColor: {r: 0, g: 0, b: 0, a: 0}
   AttackRange: 0

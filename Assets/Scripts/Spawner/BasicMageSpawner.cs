@@ -1,26 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using RTS;
 
 public class BasicMageSpawner : BaseSpawner
 {
     [SerializeField] private UnitData unitData;
     private void OnEnable()
     {
-        MessageQueueManager.Instance.AddListener<BasicMageSpawnMessage>(OnBasicMageSpawned);
+        MessageQueueManager.Instance.AddListener<DefaultMageSpawnMessage>(OnBasicMageSpawned);
     }
     private void OnDisable()
     {
-        MessageQueueManager.Instance.RemoveListener<BasicMageSpawnMessage>(OnBasicMageSpawned);
+        MessageQueueManager.Instance.RemoveListener<DefaultMageSpawnMessage>(OnBasicMageSpawned);
     }
-    private void OnBasicMageSpawned(BasicMageSpawnMessage message)
+    private void OnBasicMageSpawned(DefaultMageSpawnMessage message)
     {
         GameObject mage = SpawnObject();
-        //mage.SetLayerMaskToAllChildren("Unit");
-        UnitComponent unit = mage.GetComponent<UnitComponent>();
+        mage.SetLayerMaskToAllChildren("Unit");
+        UnitComponentNavMesh unit = mage.GetComponent<UnitComponentNavMesh>();
         if (unit == null)
         {
-            unit = mage.AddComponent<UnitComponent>();
+            unit = mage.AddComponent<UnitComponentNavMesh>();
         }
         unit.CopyData(unitData);
     }

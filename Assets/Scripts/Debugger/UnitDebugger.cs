@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using UnityEditor;
 
 namespace Debugger
@@ -11,14 +8,14 @@ namespace Debugger
         [MenuItem("RTS/Debug/Unit/Spawn Warrior %g")]
         private static void SpawnWarrior()
         {
-            MessageQueueManager.Instance.SendMessage(new BasicWarriorSpawnMessage());
+            MessageQueueManager.Instance.SendMessage(new DefaultWarriorSpawnMessage());
         }
 
         // Creates a shortcute for Ctrl+H (or Cmd+H on macOS)
         [MenuItem("RTS/Debug/Unit//Spawn Mage %h")]
         private static void SpawnMage()
         {
-            MessageQueueManager.Instance.SendMessage(new BasicMageSpawnMessage());
+            MessageQueueManager.Instance.SendMessage(new DefaultMageSpawnMessage());
         }
     }
 }

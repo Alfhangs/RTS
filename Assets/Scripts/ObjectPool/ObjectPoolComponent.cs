@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +12,7 @@ public class ObjectPoolComponent : MonoBehaviour
     {
         for (int i = 0; i < poolSize; i++)
         {
-            gameObjects.Add(CreateItem(true));
+            gameObjects.Add(CreateItem(false));
         }
     }
 

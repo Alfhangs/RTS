@@ -1,17 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Extension
+namespace RTS
 {
     public static class GameObjectExtension
     {
-        public static void SetLayerMaskToAllChildren( GameObject item, string layerName)
+        public static void SetLayerMaskToAllChildren(this GameObject item, string layerName)
         {
-            int layer = LayerMask.GetMask(layerName);
+            int layer = LayerMask.NameToLayer(layerName);
             item.layer = layer;
-            foreach (Transform child in
-            item.GetComponentsInChildren<Transform>())
+            foreach (Transform child in item.GetComponentsInChildren<Transform>())
             {
                 child.gameObject.layer = layer;
             }

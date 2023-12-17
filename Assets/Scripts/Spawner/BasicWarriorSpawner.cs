@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
+using RTS;
 using UnityEngine;
 
 public class BasicWarriorSpawner : BaseSpawner
 {
-    [SerializeField] public UnitData _unitData;
+    [SerializeField] private UnitData unitData;
 
     private void OnEnable()
     {
@@ -19,22 +18,12 @@ public class BasicWarriorSpawner : BaseSpawner
     private void OnBasicWarriorSpawned(IMessage message)
     {
         GameObject warrior = SpawnObject();
-
-        UnitComponent unit = warrior.GetComponent<UnitComponent>();
+        warrior.SetLayerMaskToAllChildren("Unit");
+        UnitComponentNavMesh unit = warrior.GetComponent<UnitComponentNavMesh>();
         if (unit == null)
         {
-            unit = warrior.GetComponent<UnitComponent>();
+            unit = warrior.GetComponent<UnitComponentNavMesh>();
         }
-        unit.CopyData(_unitData);
-        //unit.ID = _unitData.ToString();
-        //unit.type = _unitData.Type;
-        //unit.level = _unitData.Level;
-        //unit.levelMultiplier = _unitData.LevelMultiplier;
-        //unit.health = _unitData.Health;
-        //unit.attack = _unitData.Attack;
-        //unit.defense = _unitData.Defense;
-        //unit.walkSpeed = _unitData.WalkSpeed;
-        //unit.attackSpeed = _unitData.AttackSpeed;
+        unit.CopyData(unitData);
     }
-
 }

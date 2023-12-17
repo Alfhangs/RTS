@@ -1,6 +1,5 @@
 using Configuration;
 using Message.UI;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -11,6 +10,7 @@ public class UnitSelectorComponent : MonoBehaviour
     private Vector3 _startPosition;
     private List<UnitComponent> units = new List<UnitComponent>();
     private float distanceBetweenUnits = 2.0f;
+    private float minDistanceValue = 0.4f;
 
     private void Awake()
     {
@@ -66,22 +66,39 @@ public class UnitSelectorComponent : MonoBehaviour
             unit.Selected(false);
         }
         units.Clear();
+
         Vector3 center = (startPosition + endPosition) / 2;
         float distance = Vector3.Distance(center, endPosition);
+        distance = distance < minDistanceValue ? minDistanceValue : distance;
         Vector3 halfExtents = new Vector3(distance, distance, distance);
 
+        GameObject model = null;
+        ActionType actions = ActionType.None;
 
         Collider[] colliders = Physics.OverlapBox(center, halfExtents);
         foreach (Collider collider in colliders)
         {
             UnitComponent unit = collider.GetComponent<UnitComponent>();
-            if (unit != null)
+            if (unit != null )
             {
                 unit.Selected(true);
                 units.Add(unit);
-                Debug.Log(unit.name);
+
+                if (model == null)
+                {
+                    model = collider.gameObject;
+                    actions = unit.Actions;
+                }
+            }
+            EnemyComponent enemy = collider.GetComponent<EnemyComponent>();
+            if (enemy != null)
+            {
+                enemy.Selected();
             }
         }
+
+        MessageQueueManager.Instance.SendMessage(new UpdateDetailsMessage { Units = units, Model = model });
+        MessageQueueManager.Instance.SendMessage(new UpdateActionsMessage { Actions = actions });
     }
     private void MoveSelectedUnits(Vector3 movePosition)
     {
@@ -94,9 +111,10 @@ public class UnitSelectorComponent : MonoBehaviour
 
         int rows = Mathf.RoundToInt(Mathf.Sqrt(units.Count));
         int counter = 0;
+
         for (int i = 0; i < units.Count; i++)
         {
-            if (i > 0 && (1 % rows) == 0)
+            if (i > 0 && (i % rows) == 0)
             {
                 counter++;
             }
