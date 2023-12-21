@@ -873,6 +873,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plane
       objectReference: {fileID: 0}
+    - target: {fileID: 3108911065834690259, guid: a1277440e9f23744fb5c61d3632ed553, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843179129639775204, guid: a1277440e9f23744fb5c61d3632ed553, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: d00adcbe184927c498a5ce28b76eaf51, type: 2}
+    - target: {fileID: 5843179129639775204, guid: a1277440e9f23744fb5c61d3632ed553, type: 3}
+      propertyPath: m_LayerMask.m_Bits
+      value: 384
+      objectReference: {fileID: 0}
     - target: {fileID: 6971968065622201166, guid: a1277440e9f23744fb5c61d3632ed553, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

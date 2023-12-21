@@ -67,11 +67,13 @@
     <Compile Include="Assets\Scripts\Configuration\ActionType.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\UI\UpdateDetailsMessage.cs" />
     <Compile Include="Assets\Scripts\Extension\GameObjectExtension.cs" />
+    <Compile Include="Assets\Scripts\Battle\CollisionComponent.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyComponent.cs" />
     <Compile Include="Assets\Scripts\Spawner\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\Enemy\BaseEnemySpawnMessage.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\UI\UpdateActionsMessage.cs" />
+    <Compile Include="Assets\Scripts\Character\BaseCharacterData.cs" />
     <Compile Include="Assets\Scripts\Unit\UnitComponentNavMesh.cs" />
     <Compile Include="Assets\Scripts\Unit\UnitComponent.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\Enemy\DefaultGolemSpawnMessage.cs" />
@@ -89,7 +91,9 @@
     <Compile Include="Assets\Scripts\Configuration\LevelItem.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\IMessage.cs" />
     <Compile Include="Assets\Scripts\Battle\ProjectileComponent.cs" />
+    <Compile Include="Assets\Scripts\Character\BaseCharacter.cs" />
     <Compile Include="Assets\Scripts\UI\ResourceUpdater.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyComponentNavMesh.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\Enemy\DefaultOrcSpawnMessage.cs" />
     <Compile Include="Assets\Scripts\Command\MoveCommand.cs" />
     <Compile Include="Assets\Scripts\Unit\UnitType.cs" />
@@ -107,6 +111,7 @@
     <Compile Include="Assets\Scripts\Level\LevelData.cs" />
     <Compile Include="Assets\Scripts\Debugger\ResourceDebugger.cs" />
     <Compile Include="Assets\Scripts\Configuration\LevelItemType.cs" />
+    <Compile Include="Assets\Scripts\Battle\DeadComponent.cs" />
     <Compile Include="Assets\Scripts\UI\TimeFadeComponent.cs" />
     <Compile Include="Assets\Scripts\Unit\UnitData.cs" />
     <Compile Include="Assets\Scripts\Unit\UnitSelectorComponent.cs" />

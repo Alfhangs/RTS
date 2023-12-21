@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932518b91c8f913429f4f191fabd0121, type: 3}
   m_Name: DefaultMage
   m_EditorClassIdentifier: 
-  Type: 1
-  Level: 1
-  LevelMultiplier: 1.2
-  Health: 3
-  Attack: 3
-  Defense: 1
-  WalkSpeed: 5
-  AttackSpeed: 1.8
-  SelectedColor: {r: 0.6886792, g: 0.1650231, b: 0.6635161, a: 0}
-  Actions: 15
-  AnimationStateAttack01: attack01
-  AnimationStateAttack02: attack02
-  AnimationStateDefense: victory
-  AnimationStateMove: run
-  AnimationStateIdle: idle
-  AnimationStateCollect: GetHit
-  AnimationStateDeath: die
-  OriginalColor: {r: 0, g: 0, b: 0, a: 0}
-  AttackRange: 8
+  health: 3
+  attack: 3
+  defense: 1
+  walkSpeed: 2
+  attackSpeed: 1.8
+  selectedColor: {r: 0.7490196, g: 0, b: 1, a: 0}
+  animationStateAttack01: attack01
+  animationStateAttack02: attack02
+  animationStateDefense: victory
+  animationStateMove: run
+  animationStateIdle: idle
+  animationStateCollect: GetHit
+  animationStateDeath: die
+  attackRange: 8
+  colliderSize: 1.5
+  type: 1
+  level: 1
+  levelMultiplier: 1.2
+  actions: 15

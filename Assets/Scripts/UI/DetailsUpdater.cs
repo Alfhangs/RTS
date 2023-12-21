@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Message.UI;
+using UnityEngine.AI;
+using RTS;
 
 public class DetailsUpdater : MonoBehaviour
 {
@@ -84,8 +86,7 @@ public class DetailsUpdater : MonoBehaviour
         GameObject newPortrait = Instantiate(model);
         ResetTransform(newPortrait);
         RemoveUnitComponent(newPortrait);
-        newPortrait.layer = 6;
-        Debug.Log(newPortrait.layer);
+        newPortrait.SetLayerMaskToAllChildren("Portrait");
     }
 
     private void ResetTransform(GameObject portrait)
@@ -97,14 +98,19 @@ public class DetailsUpdater : MonoBehaviour
 
     private void RemoveUnitComponent(GameObject portrait)
     {
-        UnitComponent unit = portrait.GetComponent<UnitComponent>();
-        unit.Selected(false);
-        Destroy(unit);
+        BaseCharacter character = portrait.GetComponent<BaseCharacter>();
+        Destroy(character);
+
+        CollisionComponent collision = portrait.GetComponent<CollisionComponent>();
+        Destroy(collision);
+
+        NavMeshAgent navMeshAgent = portrait.GetComponent<NavMeshAgent>();
+        Destroy(navMeshAgent);
 
         Rigidbody rigidbody = portrait.GetComponent<Rigidbody>();
         Destroy(rigidbody);
 
-        BoxCollider boxCollider = portrait.GetComponent<BoxCollider>();
-        Destroy(boxCollider);
+        SphereCollider sphereCollider = portrait.GetComponent<SphereCollider>();
+        Destroy(sphereCollider);
     }
 }

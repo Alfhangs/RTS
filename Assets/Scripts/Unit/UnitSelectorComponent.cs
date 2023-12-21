@@ -87,13 +87,8 @@ public class UnitSelectorComponent : MonoBehaviour
                 if (model == null)
                 {
                     model = collider.gameObject;
-                    actions = unit.Actions;
+                    actions = unit.actions;
                 }
-            }
-            EnemyComponent enemy = collider.GetComponent<EnemyComponent>();
-            if (enemy != null)
-            {
-                enemy.Selected();
             }
         }
 

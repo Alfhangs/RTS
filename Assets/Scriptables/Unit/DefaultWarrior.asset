@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932518b91c8f913429f4f191fabd0121, type: 3}
   m_Name: DefaultWarrior
   m_EditorClassIdentifier: 
-  Type: 0
-  Level: 1
-  LevelMultiplier: 1.2
-  Health: 5
-  Attack: 2
-  Defense: 1
-  WalkSpeed: 10
-  AttackSpeed: 5
-  SelectedColor: {r: 0.1654681, g: 0.7051928, b: 0.7830189, a: 0}
-  Actions: 15
-  AnimationStateAttack01: Attack01
-  AnimationStateAttack02: Attack02
-  AnimationStateDefense: Victory
-  AnimationStateMove: Run
-  AnimationStateIdle: Idle
-  AnimationStateCollect: GetHit
-  AnimationStateDeath: Death
-  OriginalColor: {r: 0, g: 0, b: 0, a: 0}
-  AttackRange: 0
+  health: 10
+  attack: 2
+  defense: 1
+  walkSpeed: 3
+  attackSpeed: 1.5
+  selectedColor: {r: 0, g: 0.6627451, b: 1, a: 0}
+  animationStateAttack01: Attack01
+  animationStateAttack02: Attack02
+  animationStateDefense: Victory
+  animationStateMove: Run
+  animationStateIdle: Idle
+  animationStateCollect: GetHit
+  animationStateDeath: Death
+  attackRange: 1
+  colliderSize: 1
+  type: 0
+  level: 1
+  levelMultiplier: 1.2
+  actions: 15

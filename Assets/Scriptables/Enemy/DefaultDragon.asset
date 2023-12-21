@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc5191a3a98cdd4f8e2ae314f874ddb, type: 3}
   m_Name: DefaultDragon
   m_EditorClassIdentifier: 
+  health: 100
+  attack: 10
+  defense: 3
+  walkSpeed: 3
+  attackSpeed: 2
+  selectedColor: {r: 1, g: 0.41176474, b: 0.3803922, a: 0}
+  animationStateAttack01: Basic Attack
+  animationStateAttack02: Tail Attack
+  animationStateDefense: Defend
+  animationStateMove: Run
+  animationStateIdle: Idle
+  animationStateCollect: 
+  animationStateDeath: Die
+  attackRange: 1
+  colliderSize: 1
   Type: 2
-  Health: 100
-  Attack: 10
-  Defense: 3
-  WalkSpeed: 3
-  AttackSpeed: 2
-  SelectedColor: {r: 0.7264151, g: 0.38650766, b: 0.38650766, a: 0}
-  AnimationStateAttack01: Basic Attack
-  AnimationStateAttack02: Tail Attack
-  AnimationStateDefense: Defend
-  AnimationStateMove: Run
-  AnimationStateIdle: Idle
-  AnimationStateDeath: Die

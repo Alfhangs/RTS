@@ -1,27 +1,59 @@
 using UnityEngine;
 using UnityEngine.AI;
+using Configuration;
 
-
+[RequireComponent(typeof(NavMeshAgent), typeof(CollisionComponent))]
 public class UnitComponentNavMesh : UnitComponent
+{
+    private NavMeshAgent _agent;
+    private CollisionComponent _collisionComponent;
+
+    private void Start()
     {
-        private NavMeshAgent agent;
+        _collisionComponent = GetComponent<CollisionComponent>();
+        _collisionComponent.Initialize(this);
+        _collisionComponent.OnStartAttacking += OnStartAttacking;
+        _collisionComponent.OnStopAttacking += OnStopAttacking;
 
-        private void Start()
-        {
-            agent = GetComponent<NavMeshAgent>();
-        }
+        _agent = GetComponent<NavMeshAgent>();
+        _agent.speed = WalkSpeed;
+    }
 
-        protected override void UpdatePosition()
+    private void OnDestroy()
+    {
+        if (_collisionComponent != null)
         {
-            agent.destination = GetFinalPosition();
-        }
-
-        protected override void OnCollisionEnter(Collision collision)
-        {
-           base.OnCollisionEnter(collision);
-            if (!collision.gameObject.CompareTag("Plane"))
-            {
-                agent.isStopped = true;
-            }
+            _collisionComponent.OnStartAttacking -= OnStartAttacking;
+            _collisionComponent.OnStopAttacking -= OnStopAttacking;
         }
     }
+
+    protected override void UpdatePosition()
+    {
+        _agent.isStopped = false;
+        _agent.destination = GetFinalPosition();
+    }
+
+    protected override void StopMovingAndAttack()
+    {
+        base.StopMovingAndAttack();
+        _agent.isStopped = true;
+    }
+
+    private void OnStartAttacking(Transform target)
+    {
+        transform.LookAt(target.position);
+        _agent.isStopped = true;
+        UpdateState(ActionType.Attack);
+    }
+
+    private void OnStopAttacking(Transform target, bool opponentIsDead)
+    {
+        if (IsDead)
+        {
+            return;
+        }
+
+        UpdateState(ActionType.None);
+    }
+}

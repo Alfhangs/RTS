@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc5191a3a98cdd4f8e2ae314f874ddb, type: 3}
   m_Name: DefaultOrc
   m_EditorClassIdentifier: 
+  health: 10
+  attack: 2
+  defense: 1
+  walkSpeed: 5
+  attackSpeed: 2
+  selectedColor: {r: 1, g: 0.41176474, b: 0.3803922, a: 0}
+  animationStateAttack01: Attack01
+  animationStateAttack02: Attack02
+  animationStateDefense: Victory
+  animationStateMove: Run
+  animationStateIdle: Idle
+  animationStateCollect: 
+  animationStateDeath: Die
+  attackRange: 1
+  colliderSize: 1
   Type: 0
-  Health: 10
-  Attack: 2
-  Defense: 1
-  WalkSpeed: 5
-  AttackSpeed: 2
-  SelectedColor: {r: 0.8584906, g: 0.3029014, b: 0.3029014, a: 0}
-  AnimationStateAttack01: Attack01
-  AnimationStateAttack02: Attack02
-  AnimationStateDefense: Victory
-  AnimationStateMove: Run
-  AnimationStateIdle: Idle
-  AnimationStateDeath: Die

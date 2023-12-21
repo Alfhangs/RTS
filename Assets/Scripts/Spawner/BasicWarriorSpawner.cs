@@ -7,22 +7,22 @@ public class BasicWarriorSpawner : BaseSpawner
 
     private void OnEnable()
     {
-        MessageQueueManager.Instance.AddListener<IMessage>(OnBasicWarriorSpawned);
+        MessageQueueManager.Instance.AddListener<DefaultWarriorSpawnMessage>(OnBasicWarriorSpawned);
     }
 
     private void OnDisable()
     {
-        MessageQueueManager.Instance.RemoveListener<IMessage>(OnBasicWarriorSpawned);
+        MessageQueueManager.Instance.RemoveListener<DefaultWarriorSpawnMessage>(OnBasicWarriorSpawned);
     }
 
-    private void OnBasicWarriorSpawned(IMessage message)
+    private void OnBasicWarriorSpawned(DefaultWarriorSpawnMessage message)
     {
         GameObject warrior = SpawnObject();
         warrior.SetLayerMaskToAllChildren("Unit");
         UnitComponentNavMesh unit = warrior.GetComponent<UnitComponentNavMesh>();
         if (unit == null)
         {
-            unit = warrior.GetComponent<UnitComponentNavMesh>();
+            unit = warrior.AddComponent<UnitComponentNavMesh>();
         }
         unit.CopyData(unitData);
     }
