@@ -84,7 +84,7 @@ public class BaseCharacter : MonoBehaviour
             return false;
         }
 
-        //gameObject.AddComponent<DeadComponent>();
+        gameObject.AddComponent<DeadComponent>();
         PlayAnimation(UnitAnimationState.Death);
         IsDead = true;
         return true;

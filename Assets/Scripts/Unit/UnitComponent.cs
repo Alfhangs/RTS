@@ -3,7 +3,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
 public class UnitComponent : BaseCharacter
-{ 
+{
     public UnitType type;
     public int level;
     public float levelMultiplier;
@@ -76,24 +76,6 @@ public class UnitComponent : BaseCharacter
         }
     }
 
-    //private void Update()
-    //{
-    //    if (!shouldMove)
-    //    {
-    //        //Debug.Log("A");
-    //        return;
-    //    }
-    //    if (Vector3.Distance(transform.position, movePosition) < 0.5f)
-    //    {
-    //        //Debug.Log("A");
-    //        animator.Play("Idle");
-    //        shouldMove = false;
-    //        return;
-    //    }
-    //    Vector3 pos = (movePosition - transform.position).normalized;
-    //    transform.position += pos * Time.deltaTime * walkSpeed;
-    //}
-
     private void Update()
     {
         if (IsDead)
@@ -123,7 +105,7 @@ public class UnitComponent : BaseCharacter
                 break;
         }
     }
-   
+
     private void EnableMovement(bool enabled)
     {
         if (enabled)
@@ -136,10 +118,10 @@ public class UnitComponent : BaseCharacter
         }
         _shouldMove = enabled;
     }
-  
+
     private void UpdateAttack()
     {
-        UnitAnimationState attackState = (UnityEngine.Random.value < 0.5f) ? UnitAnimationState.Attack01 : UnitAnimationState.Attack02;
+        UnitAnimationState attackState = (Random.value < 0.5f) ? UnitAnimationState.Attack01 : UnitAnimationState.Attack02;
         UpdatePosition(_minDistance + AttackRange, attackState);
 
         if (!_shouldAttack || AttackRange <= 0)
@@ -149,8 +131,7 @@ public class UnitComponent : BaseCharacter
         _attackCooldown -= Time.deltaTime;
         if (_attackCooldown < 0)
         {
-            MessageQueueManager.Instance.SendMessage(
-            new FireballSpawnMessage
+            MessageQueueManager.Instance.SendMessage(new FireballSpawnMessage
             {
                 Position = transform.position,
                 Rotation = transform.rotation,
@@ -183,9 +164,8 @@ public class UnitComponent : BaseCharacter
         }
         if (Vector3.Distance(transform.position, _movePosition) < range)
         {
-            _animator.Play(_unitData.GetAnimationState(state));
-            _shouldMove = false;
-            _shouldAttack = true;
+            PlayAnimation(state);
+            StopMovingAndAttack();
             return;
         }
         UpdatePosition();

@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using Configuration;
 
-[RequireComponent(typeof(BoxCollider), typeof(Animator))]
+[RequireComponent(typeof(Animator))]
 public class EnemyComponent : BaseCharacter
 {
     public EnemyType Type;
@@ -19,8 +19,9 @@ public class EnemyComponent : BaseCharacter
         _action = ActionType.None;
 
         transform.position = spawnPoint;
-        _animator.Play(_enemyData.GetAnimationState(UnitAnimationState.Idle));
+        PlayAnimation(UnitAnimationState.Idle);
     }
+
     protected override void UpdateState(ActionType action)
     {
         base.UpdateState(action);
