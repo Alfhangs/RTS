@@ -25,5 +25,6 @@ public class BasicWarriorSpawner : BaseSpawner
             unit = warrior.AddComponent<UnitComponentNavMesh>();
         }
         unit.CopyData(unitData);
+        LevelManager.Instance.Units.Add(warrior);
     }
 }

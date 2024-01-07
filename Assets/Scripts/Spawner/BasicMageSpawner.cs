@@ -25,5 +25,6 @@ public class BasicMageSpawner : BaseSpawner
             unit = mage.AddComponent<UnitComponentNavMesh>();
         }
         unit.CopyData(unitData);
+        LevelManager.Instance.Units.Add(mage);
     }
 }

@@ -66,3 +66,8 @@ MonoBehaviour:
   Columns: 5
   Rows: 5
   Configuration: {fileID: 11400000, guid: ee03125e703ff2846bc5e13105e2d61a, type: 2}
+  EnemyGroups:
+  - data: {fileID: 11400000, guid: 2c4f8c1a4d80c9d428082b657c1797bc, type: 2}
+    position: {x: 10, y: 0, z: 0}
+  - data: {fileID: 11400000, guid: ab0b6d02810e42f458dd8cbd949f0026, type: 2}
+    position: {x: 20, y: 0, z: 0}
