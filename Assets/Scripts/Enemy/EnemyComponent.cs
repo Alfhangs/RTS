@@ -47,4 +47,12 @@ public class EnemyComponent : BaseCharacter
     {
         _animator.Play(_enemyData.GetAnimationState(animationState));
     }
+    public override float GetAttack()
+    {
+        return Attack;
+    }
+    public override float GetDefense()
+    {
+        return Defense;
+    }
 }

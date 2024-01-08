@@ -87,7 +87,7 @@ public class CollisionComponent : MonoBehaviour
         {
             Debug.Log($"{gameObject.name}-{_character.ID} attacking {opponent.name}-{opponent.ID}");
 
-            float damage = _character.Attack - opponent.Defense;
+            float damage = _character.GetAttack() - opponent.GetDefense();
 
             MessageQueueManager.Instance.SendMessage(new DamageFeedbackMessage()
             {
@@ -107,7 +107,7 @@ public class CollisionComponent : MonoBehaviour
     private void TakeDamageFromProjectile(float opponentAttack, Transform target)
     {
         Debug.Log($"{gameObject.name}-{_character.ID} attacked by projectile");
-        float damage = opponentAttack - _character.Defense;
+        float damage = opponentAttack - _character.GetDefense();
 
         MessageQueueManager.Instance.SendMessage(new DamageFeedbackMessage()
         {

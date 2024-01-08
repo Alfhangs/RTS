@@ -23,7 +23,7 @@ MonoBehaviour:
   animationStateDefense: Defend
   animationStateMove: Run
   animationStateIdle: Idle
-  animationStateCollect: 
+  animationStateCollect: a
   animationStateDeath: Die
   attackRange: 1
   colliderSize: 1

@@ -135,7 +135,7 @@ public class UnitComponent : BaseCharacter
             {
                 Position = transform.position,
                 Rotation = transform.rotation,
-                Damage = Attack
+                Damage = GetAttack()
             });
             _attackCooldown = AttackSpeed;
         }
@@ -213,5 +213,13 @@ public class UnitComponent : BaseCharacter
     protected override void PlayAnimation(UnitAnimationState animationState)
     {
         _animator.Play(_unitData.GetAnimationState(animationState));
+    }
+    public override float GetAttack()
+    {
+        return Mathf.Pow(level, levelMultiplier) + Attack;
+    }
+    public override float GetDefense()
+    {
+        return Mathf.Pow(level, levelMultiplier) + Defense;
     }
 }

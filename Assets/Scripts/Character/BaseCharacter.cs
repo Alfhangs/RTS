@@ -70,6 +70,16 @@ public class BaseCharacter : MonoBehaviour
         throw new NotImplementedException();
     }
 
+    public virtual float GetAttack()
+    {
+        throw new NotImplementedException();
+    }
+
+    public virtual float GetDefense()
+    {
+        throw new NotImplementedException();
+    }
+
     public bool TakeDamage(float damage)
     {
         if (IsDead)
