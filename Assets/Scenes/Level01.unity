@@ -662,6 +662,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 9144936834829754389}
     m_Modifications:
     - target: {fileID: 4326546947661551168, guid: 9147abce320f47745bf407ee2d94350c, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 1438169871030806, guid: c9bc790a133e19c40b64d6db4cfb7a22, type: 3}
+    - target: {fileID: 4326546947661551168, guid: 9147abce320f47745bf407ee2d94350c, type: 3}
       propertyPath: allowCreation
       value: 1
       objectReference: {fileID: 0}
@@ -673,6 +677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObjectPools
       objectReference: {fileID: 0}
+    - target: {fileID: 6450304095519604007, guid: 9147abce320f47745bf407ee2d94350c, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 113038, guid: 907325ec940ecbf409d1505976f5fcd5, type: 3}
     - target: {fileID: 6450304095519604007, guid: 9147abce320f47745bf407ee2d94350c, type: 3}
       propertyPath: allowCreation
       value: 1

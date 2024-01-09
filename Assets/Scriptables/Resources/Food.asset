@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a90324f3f20a040b249f550687f3eb, type: 3}
   m_Name: Food
   m_EditorClassIdentifier: 
-  ProductionPerSecond: 1
+  ProductionPerSecond: 2
   ProductionLevel: 1
   Type: 2
