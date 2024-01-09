@@ -1,3 +1,4 @@
+using RTS.Message.UI;
 using System;
 using System.Collections;
 using UnityEngine;

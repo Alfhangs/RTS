@@ -2,7 +2,7 @@ using UnityEngine;
 using System;
 using Configuration;
 
-namespace Level
+namespace RTS.Level
 {
     [Serializable]
     public class LevelSlot

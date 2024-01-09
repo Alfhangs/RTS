@@ -3,7 +3,7 @@ using UnityEngine;
 using Configuration;
 using RTS.Enemy;
 
-namespace Level
+namespace RTS.Level
 {
     [CreateAssetMenu(menuName = "Configuration/New Level")]
     public class LevelData : ScriptableObject

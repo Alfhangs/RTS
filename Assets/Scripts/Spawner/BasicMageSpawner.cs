@@ -1,5 +1,6 @@
 using UnityEngine;
 using RTS;
+using RTS.Level;
 
 public class BasicMageSpawner : BaseSpawner
 {

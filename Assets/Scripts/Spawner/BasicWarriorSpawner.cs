@@ -1,4 +1,5 @@
 using RTS;
+using RTS.Level;
 using UnityEngine;
 
 public class BasicWarriorSpawner : BaseSpawner

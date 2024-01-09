@@ -1,4 +1,4 @@
-namespace Message.UI
+namespace RTS.Message.UI
 {
     public class UpdateResourceMessage : IMessage
     {

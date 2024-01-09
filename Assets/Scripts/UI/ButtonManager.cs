@@ -1,4 +1,5 @@
 using Configuration;
+using RTS.Message.UI;
 using RTS.UI;
 using System;
 using System.Collections.Generic;

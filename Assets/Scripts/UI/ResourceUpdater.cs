@@ -1,44 +1,48 @@
 using UnityEngine;
 using TMPro;
-using Message.UI;
+using RTS.Message.UI;
+using RTS.Level;
 
-public class ResourceUpdater : MonoBehaviour
+namespace RTS.UI
 {
-    [SerializeField] private ResourceType _type;
-    [SerializeField] private TextMeshProUGUI _value;
-    private int _currentValue;
-    private void OnEnable()
+    public class ResourceUpdater : MonoBehaviour
     {
-        MessageQueueManager.Instance.AddListener<UpdateResourceMessage>(OnResourceUpdated);
-    }
-
-    private void OnDisable()
-    {
-        MessageQueueManager.Instance.RemoveListener<UpdateResourceMessage>(OnResourceUpdated);
-
-    }
-
-    private void Awake()
-    {
-        if (_value == null)
+        [SerializeField] private ResourceType _type;
+        [SerializeField] private TextMeshProUGUI _value;
+        private int _currentValue;
+        private void OnEnable()
         {
-            Debug.LogError("Missing TMP_Text variable on ResourceUpdater script");
-            return;
+            MessageQueueManager.Instance.AddListener<UpdateResourceMessage>(OnResourceUpdated);
         }
-        UpdateValue();
-    }
 
-    private void OnResourceUpdated(UpdateResourceMessage message)
-    {
-        if (_type == message.Type)
+        private void OnDisable()
         {
-            _currentValue += message.Amount;
+            MessageQueueManager.Instance.RemoveListener<UpdateResourceMessage>(OnResourceUpdated);
+
+        }
+
+        private void Awake()
+        {
+            if (_value == null)
+            {
+                Debug.LogError("Missing TMP_Text variable on ResourceUpdater script");
+                return;
+            }
             UpdateValue();
         }
-    }
 
-    private void UpdateValue()
-    {
-        _value.text = $"{_type}: {_currentValue}";
+        private void OnResourceUpdated(UpdateResourceMessage message)
+        {
+            if (_type == message.Type)
+            {
+                LevelManager.Instance.UpdateResource(_type, message.Amount);
+                UpdateValue();
+            }
+        }
+
+        private void UpdateValue()
+        {
+            _value.text = $"{_type}: {LevelManager.Instance.GetResource(_type)}";
+        }
     }
 }

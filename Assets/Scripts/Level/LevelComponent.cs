@@ -3,7 +3,7 @@ using Configuration;
 using UnityEngine.AI;
 using RTS.Enemy;
 
-namespace Level
+namespace RTS.Level
 {
     public class LevelComponent : MonoBehaviour
     {

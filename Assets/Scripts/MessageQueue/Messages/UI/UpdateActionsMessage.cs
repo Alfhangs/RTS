@@ -1,6 +1,9 @@
 using Configuration;
 
-public class UpdateActionsMessage :IMessage
+namespace RTS.Message.UI
 {
-    public ActionType Actions;
+    public class UpdateActionsMessage : IMessage
+    {
+        public ActionType Actions;
+    }
 }

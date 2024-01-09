@@ -1,0 +1,2724 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 12}
+  - {fileID: 17}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1536
+    height: 730.8
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: -1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Game\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 123.200005
+    width: 695.8
+    height: 660.2
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1920, y: 1080}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -768
+    m_HBaseRangeMax: 768
+    m_VBaseRangeMin: -432
+    m_VBaseRangeMax: 432
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 695.8
+      height: 639.2
+    m_Scale: {x: 0.4529948, y: 0.45299482}
+    m_Translation: {x: 347.9, y: 319.6}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -768
+      y: -705.52686
+      width: 1536
+      height: 1411.0537
+    m_MinimalGUI: 1
+  m_defaultScale: 0.4529948
+  m_LastWindowPixelSize: {x: 869.75, y: 825.25}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 796.8
+    height: 730.8
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: -1
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 796.8
+    height: 49.6
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 5}
+  m_Panes:
+  - {fileID: 5}
+  - {fileID: 6}
+  - {fileID: 7}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Scene\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 795.8
+    height: 28.599998
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -156, y: -26.400024}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 92.400024}
+      snapOffsetDelta: {x: 0, y: -87.60002}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 24, y: 24.8}
+      snapOffsetDelta: {x: 0, y: -20}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -24, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 24, y: -24}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 2
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -112, y: -60.8}
+      snapOffsetDelta: {x: 0, y: 32}
+      snapCorner: 3
+      id: Orientation
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -209.59998, y: -60.8}
+      snapOffsetDelta: {x: 0, y: 32}
+      snapCorner: 3
+      id: AINavigationOverlay
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: -43.2}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: APV Overlay
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 20.799988, y: 24.8}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 9
+      layout: 4
+      size: {x: 240, y: 135}
+      sizeOverridden: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: -43.2}
+      snapCorner: 0
+      id: Brush Attributes
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: -43.2}
+      snapCorner: 0
+      id: Terrain Tools
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: -43.2}
+      snapCorner: 0
+      id: Brush Masks
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: overlay-toolbar__left
+      scrollOffset: 0
+    - containerId: overlay-container--left
+      scrollOffset: 0
+    - containerId: overlay-container--right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__bottom
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: e65d45ec4330ec34c8d4f7ff9fe326fd
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: -2.5740776, y: 1.8220344, z: -9.226534}
+    speed: 2
+    m_Value: {x: -2.5740776, y: 1.8220344, z: -9.226534}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: -0.17336553, y: 0.78433686, z: -0.25194559, w: -0.5397071}
+    speed: 2
+    m_Value: {x: -0.17336552, y: 0.78433675, z: -0.25194556, w: -0.53970706}
+  m_Size:
+    m_Target: 10.769774
+    speed: 2
+    m_Value: 10.769774
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.12317009, y: 0.7711962, z: -0.15713975, w: -0.6044827}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Animator\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 927.8
+    height: 246.20001
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 110700000, guid: 8aba7a975cc08dd4fb1345966135537b, type: 2}
+    - {fileID: 110700000, guid: 0a15c11dbbde189499421a0ca9e248fa, type: 2}
+    - {fileID: 110700000, guid: e58bf4525b7cc80459d6f7ff033ea067, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.28859934
+      e01: 0
+      e02: 0
+      e03: 141.68536
+      e10: 0
+      e11: 0.28859934
+      e12: 0
+      e13: 143.1381
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.38354978
+      e01: 0
+      e02: 0
+      e03: 92.219925
+      e10: 0
+      e11: 0.38354978
+      e12: 0
+      e13: 65.62857
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1.0989523
+      e01: 0
+      e02: 0
+      e03: -104.11304
+      e10: 0
+      e11: 1.0989523
+      e12: 0
+      e13: 484.3458
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 0a15c11dbbde189499421a0ca9e248fa, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 110700000, guid: 0a15c11dbbde189499421a0ca9e248fa, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 800, y: 250}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Package Manager
+    m_Image: {fileID: 5076950121296946556, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Package Manager\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 684.6
+    height: 569.4
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 49.6
+    width: 796.8
+    height: 681.2
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: -1
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 696.8
+    height: 681.2
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 696.8
+    y: 0
+    width: 100
+    height: 681.2
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 11}
+  m_Panes:
+  - {fileID: 11}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Console\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 696.8
+    y: 123.200005
+    width: 98
+    height: 660.2
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 15}
+  m_Position:
+    serializedVersion: 2
+    x: 796.8
+    y: 0
+    width: 304.00006
+    height: 730.8
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 1521
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 304.00006
+    height: 359.2
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Hierarchy\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 796.8
+    y: 73.6
+    width: 302.00006
+    height: 338.2
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: fcaeffff
+      m_LastClickedID: -20740
+      m_ExpandedIDs: 02afffff6ab0ffff30b9ffff2cc0ffff26fbffff7a660000e4690000286a0000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 13}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: c05968a3c34b23140905ce93f425b3e2
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 359.2
+    width: 304.00006
+    height: 371.59998
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Project\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 796.8
+    y: 432.80002
+    width: 302.00006
+    height: 350.59998
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scenes
+    m_Globs: []
+    m_ProductIds: 
+    m_AnyWithAssetOrigin: 0
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 0
+  m_StartGridSize: 16
+  m_LastFolders: []
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: D:\Unity\Proyectos\RTS
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 96900000
+    m_LastClickedID: 37014
+    m_ExpandedIDs: ffffffff00000000d2610000d4610000d6610000d8610000da610000dc610000de610000e2610000e4610000e6610000e8610000ec610000ee610000f0610000f2610000f6610000fa610000fc610000fe6100000062000002620000066200000a6200000c6200000e6200006a620000846200008c620000ba620000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: fcaeffff
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000d2610000d4610000d6610000d8610000da610000dc610000de610000e2610000e4610000e6610000e8610000ec610000ee610000f0610000f2610000fa610000fc610000fe6100000062000002620000066200000a6200000c6200000e620000606200006a620000846200008c620000ba620000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 15}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: fcaeffff
+    m_LastClickedInstanceID: -20740
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 15}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1100.8
+    y: 0
+    width: 435.19995
+    height: 730.8
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Inspector\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1100.8
+    y: 73.6
+    width: 434.19995
+    height: 709.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -458
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Test Runner\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1058.4
+    y: 73.6
+    width: 476.59998
+    height: 709.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_Spl:
+    ID: 179
+    splitterInitialOffset: 209.8
+    currentActiveSplitter: -1
+    realSizes:
+    - 334.4
+    - 305.6
+    relativeSizes:
+    - 0.52313435
+    - 0.47686565
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 640
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 19}
+    m_NewResultList:
+    - id: 1290
+      uniqueId: '[RTS][suite]'
+      name: RTS
+      fullName: RTS
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 973cfa42ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 19}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[RTS][suite]'
+      name: RTS
+      fullName: RTS
+      resultStatus: 2
+      duration: 0.728984
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1005
+      uniqueId: '[RTS.Tests.dll][suite]'
+      name: RTS.Tests.dll
+      fullName: D:/Unity/Proyectos/RTS/Library/ScriptAssemblies/RTS.Tests.dll
+      resultStatus: 2
+      duration: 0.7193942
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[RTS][suite]'
+    - id: 1006
+      uniqueId: 'RTS.Tests.dll/[RTS][suite]'
+      name: RTS
+      fullName: RTS
+      resultStatus: 2
+      duration: 0.7182881
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: '[RTS.Tests.dll][suite]'
+    - id: 1007
+      uniqueId: 'RTS.Tests.dll/RTS/[RTS.Tests][RTS.Test][suite]'
+      name: Test
+      fullName: RTS.Test
+      resultStatus: 2
+      duration: 0.7144622
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: 'RTS.Tests.dll/[RTS][suite]'
+    - id: 1001
+      uniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.BattleMultiTest][suite]'
+      name: BattleMultiTest
+      fullName: RTS.Test.BattleMultiTest
+      resultStatus: 2
+      duration: 0.6781311
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1062
+      parentUniqueId: 'RTS.Tests.dll/RTS/[RTS.Tests][RTS.Test][suite]'
+    - id: 1009
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy][suite]'
+      name: TestWithMultiEnemy
+      fullName: RTS.Test.BattleMultiTest.TestWithMultiEnemy
+      resultStatus: 2
+      duration: 0.6725936
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.BattleMultiTest][suite]'
+    - id: 1002
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/TestWithMultiEnemy/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior,
+        System.Collections.Generic.List`1[System.String], 1, False))]'
+      name: TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        1, False))
+      fullName: RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        1, False))
+      resultStatus: 2
+      duration: 0.1136276
+      messages: "  The unit was defeated but should have won.\r\n  Expected: False\r\n 
+        But was:  True\r\n"
+      output: 
+      stacktrace: 'at RTS.Test.BattleMultiTest+<TestWithMultiEnemy>d__3.MoveNext
+        () [0x00125] in D:\Unity\Proyectos\RTS\Assets\Scripts\Editor\Test\BattleMultiTest.cs:48
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in .\Library\PackageCache\com.unity.test-framework@1.3.7\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy][suite]'
+    - id: 1003
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/TestWithMultiEnemy/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior,
+        System.Collections.Generic.List`1[System.String], 2, True))]'
+      name: TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        2, True))
+      fullName: RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        2, True))
+      resultStatus: 1
+      duration: 0.0771754
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy][suite]'
+    - id: 1004
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/TestWithMultiEnemy/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior,
+        System.Collections.Generic.List`1[System.String], 2, False))]'
+      name: TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        2, False))
+      fullName: RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        2, False))
+      resultStatus: 2
+      duration: 0.1355911
+      messages: "  The unit was defeated but should have won.\r\n  Expected: False\r\n 
+        But was:  True\r\n"
+      output: 
+      stacktrace: 'at RTS.Test.BattleMultiTest+<TestWithMultiEnemy>d__3.MoveNext
+        () [0x00125] in D:\Unity\Proyectos\RTS\Assets\Scripts\Editor\Test\BattleMultiTest.cs:48
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in .\Library\PackageCache\com.unity.test-framework@1.3.7\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy][suite]'
+    - id: 1005
+      uniqueId: RTS.Tests.dll/RTS/Test/BattleMultiTest/TestWithMultiEnemy/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior,
+        System.Collections.Generic.List`1[System.String], 2, False))]2
+      name: TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        2, False))
+      fullName: RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        2, False) GeneratedTestCase2)
+      resultStatus: 1
+      duration: 0.0396676
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy][suite]'
+    - id: 1006
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/TestWithMultiEnemy/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior,
+        System.Collections.Generic.List`1[System.String], 3, False))]'
+      name: TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        3, False))
+      fullName: RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        3, False))
+      resultStatus: 2
+      duration: 0.0839964
+      messages: "  The unit was defeated but should have won.\r\n  Expected: False\r\n 
+        But was:  True\r\n"
+      output: 
+      stacktrace: 'at RTS.Test.BattleMultiTest+<TestWithMultiEnemy>d__3.MoveNext
+        () [0x00125] in D:\Unity\Proyectos\RTS\Assets\Scripts\Editor\Test\BattleMultiTest.cs:48
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in .\Library\PackageCache\com.unity.test-framework@1.3.7\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy][suite]'
+    - id: 1007
+      uniqueId: RTS.Tests.dll/RTS/Test/BattleMultiTest/TestWithMultiEnemy/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior,
+        System.Collections.Generic.List`1[System.String], 3, False))]2
+      name: TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        3, False))
+      fullName: RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        3, False) GeneratedTestCase2)
+      resultStatus: 2
+      duration: 0.0883121
+      messages: "  The unit was defeated but should have won.\r\n  Expected: False\r\n 
+        But was:  True\r\n"
+      output: 
+      stacktrace: 'at RTS.Test.BattleMultiTest+<TestWithMultiEnemy>d__3.MoveNext
+        () [0x00125] in D:\Unity\Proyectos\RTS\Assets\Scripts\Editor\Test\BattleMultiTest.cs:48
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in .\Library\PackageCache\com.unity.test-framework@1.3.7\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy][suite]'
+    - id: 1008
+      uniqueId: RTS.Tests.dll/RTS/Test/BattleMultiTest/TestWithMultiEnemy/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior,
+        System.Collections.Generic.List`1[System.String], 3, False))]3
+      name: TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        3, False))
+      fullName: RTS.Test.BattleMultiTest.TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+        3, False) GeneratedTestCase3)
+      resultStatus: 2
+      duration: 0.1219142
+      messages: "  The unit was defeated but should have won.\r\n  Expected: False\r\n 
+        But was:  True\r\n"
+      output: 
+      stacktrace: 'at RTS.Test.BattleMultiTest+<TestWithMultiEnemy>d__3.MoveNext
+        () [0x00125] in D:\Unity\Proyectos\RTS\Assets\Scripts\Editor\Test\BattleMultiTest.cs:48
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in .\Library\PackageCache\com.unity.test-framework@1.3.7\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleMultiTest/[RTS.Tests][RTS.Test.BattleMultiTest.TestWithMultiEnemy][suite]'
+    - id: 1001
+      uniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.BattleSingleTest][suite]'
+      name: BattleSingleTest
+      fullName: RTS.Test.BattleSingleTest
+      resultStatus: 2
+      duration: 0.0067167
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: 'RTS.Tests.dll/RTS/[RTS.Tests][RTS.Test][suite]'
+    - id: 1037
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+      name: TestWithSingleEnemy
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy
+      resultStatus: 2
+      duration: 0.0039052
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.BattleSingleTest][suite]'
+    - id: 1011
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultOrc, 0, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultOrc, 0, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultOrc,
+        0, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1012
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultGolem, 0, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultGolem, 0, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultGolem,
+        0, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1013
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultGolem, 0, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultGolem, 0, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultGolem,
+        0, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1014
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultDragon, 0, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultDragon, 0, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultDragon,
+        0, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1015
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultDragon, 0, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultDragon, 0, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultDragon,
+        0, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1016
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultOrc, 10, True))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultOrc, 10, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultOrc,
+        10, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1017
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultOrc, 1, True))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultOrc, 1, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultOrc,
+        1, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1018
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultGolem, 1, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultGolem, 1, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultGolem,
+        1, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1019
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultGolem, 1, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultGolem, 1, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultGolem,
+        1, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1020
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultDragon, 1, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultDragon, 1, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultDragon,
+        1, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1021
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultDragon, 1, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultDragon, 1, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultDragon,
+        1, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1022
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultOrc, 2, True))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultOrc, 2, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultOrc,
+        2, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1023
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultOrc, 2, True))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultOrc, 2, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultOrc,
+        2, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1024
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultGolem, 2, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultGolem, 2, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultGolem,
+        2, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1025
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultGolem, 2, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultGolem, 2, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultGolem,
+        2, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1026
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultDragon, 2, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultDragon, 2, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultDragon,
+        2, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1027
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultDragon, 2, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultDragon, 2, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultDragon,
+        2, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1028
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultOrc, 3, True))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultOrc, 3, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultOrc,
+        3, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1029
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultOrc, 3, True))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultOrc, 3, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultOrc,
+        3, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1030
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultGolem, 3, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultGolem, 3, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultGolem,
+        3, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1031
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultGolem, 3, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultGolem, 3, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultGolem,
+        3, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1032
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultDragon, 3, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultDragon, 3, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultDragon,
+        3, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1033
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultDragon, 3, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultDragon, 3, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultDragon,
+        3, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1034
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultOrc, 4, True))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultOrc, 4, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultOrc,
+        4, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1035
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultOrc, 4, True))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultOrc, 4, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultOrc,
+        4, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1036
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultGolem, 4, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultGolem, 4, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultGolem,
+        4, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1037
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultGolem, 4, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultGolem, 4, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultGolem,
+        4, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1038
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultDragon, 4, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultDragon, 4, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultDragon,
+        4, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1039
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultDragon, 4, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultDragon, 4, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultDragon,
+        4, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1040
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultOrc, 5, True))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultOrc, 5, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultOrc,
+        5, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1041
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultOrc, 5, True))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultOrc, 5, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultOrc,
+        5, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1042
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultGolem, 5, True))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultGolem, 5, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultGolem,
+        5, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1043
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultGolem, 5, True))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultGolem, 5, True))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultGolem,
+        5, True))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1044
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior,
+        DefaultDragon, 5, False))]'
+      name: TestWithSingleEnemy((DefaultWarrior, DefaultDragon, 5, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultWarrior, DefaultDragon,
+        5, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1045
+      uniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/TestWithSingleEnemy/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage,
+        DefaultDragon, 5, False))]'
+      name: TestWithSingleEnemy((DefaultMage, DefaultDragon, 5, False))
+      fullName: RTS.Test.BattleSingleTest.TestWithSingleEnemy((DefaultMage, DefaultDragon,
+        5, False))
+      resultStatus: 2
+      duration: 0
+      messages: Method has non-void return value, but no result is expected
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/BattleSingleTest/[RTS.Tests][RTS.Test.BattleSingleTest.TestWithSingleEnemy][suite]'
+    - id: 1001
+      uniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.EnemyDataTest][suite]'
+      name: EnemyDataTest
+      fullName: RTS.Test.EnemyDataTest
+      resultStatus: 1
+      duration: 0.0075058
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: 'RTS.Tests.dll/RTS/[RTS.Tests][RTS.Test][suite]'
+    - id: 1005
+      uniqueId: 'RTS.Tests.dll/RTS/Test/EnemyDataTest/[RTS.Tests][RTS.Test.EnemyDataTest.TestWithEnemies][suite]'
+      name: TestWithEnemies
+      fullName: RTS.Test.EnemyDataTest.TestWithEnemies
+      resultStatus: 1
+      duration: 0.0048439
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.EnemyDataTest][suite]'
+    - id: 1004
+      uniqueId: 'RTS.Tests.dll/RTS/Test/EnemyDataTest/TestWithEnemies/[RTS.Tests][RTS.Test.EnemyDataTest.TestWithEnemies("DefaultDragon")]'
+      name: TestWithEnemies("DefaultDragon")
+      fullName: RTS.Test.EnemyDataTest.TestWithEnemies("DefaultDragon")
+      resultStatus: 1
+      duration: 0.0036256
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/EnemyDataTest/[RTS.Tests][RTS.Test.EnemyDataTest.TestWithEnemies][suite]'
+    - id: 1003
+      uniqueId: 'RTS.Tests.dll/RTS/Test/EnemyDataTest/TestWithEnemies/[RTS.Tests][RTS.Test.EnemyDataTest.TestWithEnemies("DefaultGolem")]'
+      name: TestWithEnemies("DefaultGolem")
+      fullName: RTS.Test.EnemyDataTest.TestWithEnemies("DefaultGolem")
+      resultStatus: 1
+      duration: 0.0000883
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/EnemyDataTest/[RTS.Tests][RTS.Test.EnemyDataTest.TestWithEnemies][suite]'
+    - id: 1002
+      uniqueId: 'RTS.Tests.dll/RTS/Test/EnemyDataTest/TestWithEnemies/[RTS.Tests][RTS.Test.EnemyDataTest.TestWithEnemies("DefaultOrc")]'
+      name: TestWithEnemies("DefaultOrc")
+      fullName: RTS.Test.EnemyDataTest.TestWithEnemies("DefaultOrc")
+      resultStatus: 1
+      duration: 0.00006
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/EnemyDataTest/[RTS.Tests][RTS.Test.EnemyDataTest.TestWithEnemies][suite]'
+    - id: 1006
+      uniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.EnemyGroupDataTest][suite]'
+      name: EnemyGroupDataTest
+      fullName: RTS.Test.EnemyGroupDataTest
+      resultStatus: 1
+      duration: 0.0036353
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1016
+      parentUniqueId: 'RTS.Tests.dll/RTS/[RTS.Tests][RTS.Test][suite]'
+    - id: 1009
+      uniqueId: 'RTS.Tests.dll/RTS/Test/EnemyGroupDataTest/[RTS.Tests][RTS.Test.EnemyGroupDataTest.TestWithGroups][suite]'
+      name: TestWithGroups
+      fullName: RTS.Test.EnemyGroupDataTest.TestWithGroups
+      resultStatus: 1
+      duration: 0.0014047
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.EnemyGroupDataTest][suite]'
+    - id: 1007
+      uniqueId: 'RTS.Tests.dll/RTS/Test/EnemyGroupDataTest/TestWithGroups/[RTS.Tests][RTS.Test.EnemyGroupDataTest.TestWithGroups("OrcDuo")]'
+      name: TestWithGroups("OrcDuo")
+      fullName: RTS.Test.EnemyGroupDataTest.TestWithGroups("OrcDuo")
+      resultStatus: 1
+      duration: 0.0006538
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/EnemyGroupDataTest/[RTS.Tests][RTS.Test.EnemyGroupDataTest.TestWithGroups][suite]'
+    - id: 1008
+      uniqueId: 'RTS.Tests.dll/RTS/Test/EnemyGroupDataTest/TestWithGroups/[RTS.Tests][RTS.Test.EnemyGroupDataTest.TestWithGroups("OrcAndGolems")]'
+      name: TestWithGroups("OrcAndGolems")
+      fullName: RTS.Test.EnemyGroupDataTest.TestWithGroups("OrcAndGolems")
+      resultStatus: 1
+      duration: 0.0000789
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/EnemyGroupDataTest/[RTS.Tests][RTS.Test.EnemyGroupDataTest.TestWithGroups][suite]'
+    - id: 1056
+      uniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.ResourceDataTest][suite]'
+      name: ResourceDataTest
+      fullName: RTS.Test.ResourceDataTest
+      resultStatus: 1
+      duration: 0.0065237
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1067
+      parentUniqueId: 'RTS.Tests.dll/RTS/[RTS.Tests][RTS.Test][suite]'
+    - id: 1060
+      uniqueId: 'RTS.Tests.dll/RTS/Test/ResourceDataTest/[RTS.Tests][RTS.Test.ResourceDataTest.ResourceDataTestWithResources][suite]'
+      name: ResourceDataTestWithResources
+      fullName: RTS.Test.ResourceDataTest.ResourceDataTestWithResources
+      resultStatus: 1
+      duration: 0.0046341
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1056
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.ResourceDataTest][suite]'
+    - id: 1057
+      uniqueId: 'RTS.Tests.dll/RTS/Test/ResourceDataTest/ResourceDataTestWithResources/[RTS.Tests][RTS.Test.ResourceDataTest.ResourceDataTestWithResources("Gold")]'
+      name: ResourceDataTestWithResources("Gold")
+      fullName: RTS.Test.ResourceDataTest.ResourceDataTestWithResources("Gold")
+      resultStatus: 1
+      duration: 0.0003755
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1060
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/ResourceDataTest/[RTS.Tests][RTS.Test.ResourceDataTest.ResourceDataTestWithResources][suite]'
+    - id: 1058
+      uniqueId: 'RTS.Tests.dll/RTS/Test/ResourceDataTest/ResourceDataTestWithResources/[RTS.Tests][RTS.Test.ResourceDataTest.ResourceDataTestWithResources("Food")]'
+      name: ResourceDataTestWithResources("Food")
+      fullName: RTS.Test.ResourceDataTest.ResourceDataTestWithResources("Food")
+      resultStatus: 1
+      duration: 0.0000646
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1060
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/ResourceDataTest/[RTS.Tests][RTS.Test.ResourceDataTest.ResourceDataTestWithResources][suite]'
+    - id: 1059
+      uniqueId: 'RTS.Tests.dll/RTS/Test/ResourceDataTest/ResourceDataTestWithResources/[RTS.Tests][RTS.Test.ResourceDataTest.ResourceDataTestWithResources("Wood")]'
+      name: ResourceDataTestWithResources("Wood")
+      fullName: RTS.Test.ResourceDataTest.ResourceDataTestWithResources("Wood")
+      resultStatus: 1
+      duration: 0.0000509
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1060
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/ResourceDataTest/[RTS.Tests][RTS.Test.ResourceDataTest.ResourceDataTestWithResources][suite]'
+    - id: 1001
+      uniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.UnitDataTest][suite]'
+      name: UnitDataTest
+      fullName: RTS.Test.UnitDataTest
+      resultStatus: 1
+      duration: 0.0063595
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: 'RTS.Tests.dll/RTS/[RTS.Tests][RTS.Test][suite]'
+    - id: 1004
+      uniqueId: 'RTS.Tests.dll/RTS/Test/UnitDataTest/[RTS.Tests][RTS.Test.UnitDataTest.TestWithUnits][suite]'
+      name: TestWithUnits
+      fullName: RTS.Test.UnitDataTest.TestWithUnits
+      resultStatus: 1
+      duration: 0.0013873
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/[RTS.Tests][RTS.Test.UnitDataTest][suite]'
+    - id: 1002
+      uniqueId: 'RTS.Tests.dll/RTS/Test/UnitDataTest/TestWithUnits/[RTS.Tests][RTS.Test.UnitDataTest.TestWithUnits("DefaultWarrior")]'
+      name: TestWithUnits("DefaultWarrior")
+      fullName: RTS.Test.UnitDataTest.TestWithUnits("DefaultWarrior")
+      resultStatus: 1
+      duration: 0.000578
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/UnitDataTest/[RTS.Tests][RTS.Test.UnitDataTest.TestWithUnits][suite]'
+    - id: 1003
+      uniqueId: 'RTS.Tests.dll/RTS/Test/UnitDataTest/TestWithUnits/[RTS.Tests][RTS.Test.UnitDataTest.TestWithUnits("DefaultMage")]'
+      name: TestWithUnits("DefaultMage")
+      fullName: RTS.Test.UnitDataTest.TestWithUnits("DefaultMage")
+      resultStatus: 1
+      duration: 0.0000813
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'RTS.Tests.dll/RTS/Test/UnitDataTest/[RTS.Tests][RTS.Test.UnitDataTest.TestWithUnits][suite]'
+    m_ResultText: "TestWithMultiEnemy((DefaultWarrior, System.Collections.Generic.List`1[System.String],
+      3, False)) (0,122s)\n---\nThe unit was defeated but should have won.\r\n  Expected:
+      False\r\n  But was:  True\n---\nat RTS.Test.BattleMultiTest+<TestWithMultiEnemy>d__3.MoveNext
+      () [0x00125] in D:\\Unity\\Proyectos\\RTS\\Assets\\Scripts\\Editor\\Test\\BattleMultiTest.cs:48\nat
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in
+      .\\Library\\PackageCache\\com.unity.test-framework@1.3.7\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44"
+    m_ResultStacktrace: 'at RTS.Test.BattleMultiTest+<TestWithMultiEnemy>d__3.MoveNext
+      () [0x00125] in D:\Unity\Proyectos\RTS\Assets\Scripts\Editor\Test\BattleMultiTest.cs:48
+
+      at
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in
+      .\Library\PackageCache\com.unity.test-framework@1.3.7\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+
+'
+    m_TestListState:
+      scrollPos: {x: 0, y: 480}
+      m_SelectedIDs: dbb90522
+      m_LastClickedID: 570800603
+      m_ExpandedIDs: 329790809df777846291d3a19232fcb704475fbf3f8d67c48dec1bfae85c7dfd50c93f11d9506b2c3ea0842dae45203d973cfa427d25094e5b250e5dfdadec69b8d43d6fffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized

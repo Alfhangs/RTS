@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Message.UI;
+using RTS.Message.UI;
 using UnityEngine.AI;
 using RTS;
 

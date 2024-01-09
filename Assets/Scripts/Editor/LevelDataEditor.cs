@@ -2,8 +2,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using Configuration;
-using Level;
-
+using RTS.Level;
 
 [CustomEditor(typeof(LevelData))]
 public class LevelDataEditor : Editor

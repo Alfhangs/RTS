@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Extension\GameObjectExtension.cs" />
     <Compile Include="Assets\Scripts\Battle\CollisionComponent.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Resource\ResourceProductionType.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyComponent.cs" />
     <Compile Include="Assets\Scripts\Spawner\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\Enemy\BaseEnemySpawnMessage.cs" />
@@ -79,6 +80,8 @@
     <Compile Include="Assets\Scripts\MessageQueue\Messages\Enemy\DefaultGolemSpawnMessage.cs" />
     <Compile Include="Assets\Scripts\Command\CollectCommand.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\Unit\DefaultMageSpawnMessage.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventoryData.cs" />
+    <Compile Include="Assets\Scripts\Resource\ResourceCollectionComponent.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\MessageQueueManager.cs" />
     <Compile Include="Assets\Scripts\Level\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MessageQueue\Messages\Unit\ActionCommandMessage.cs" />
@@ -99,6 +102,8 @@
     <Compile Include="Assets\Scripts\Command\MoveCommand.cs" />
     <Compile Include="Assets\Scripts\Unit\UnitType.cs" />
     <Compile Include="Assets\Scripts\Command\ICommand.cs" />
+    <Compile Include="Assets\Scripts\MessageQueue\Messages\UI\UpgradeResourceMessage.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\Resource\ResourceData.cs" />
     <Compile Include="Assets\Scripts\Command\DefenseCommand.cs" />
     <Compile Include="Assets\Scripts\Level\LevelComponent.cs" />
@@ -114,6 +119,7 @@
     <Compile Include="Assets\Scripts\Debugger\ResourceDebugger.cs" />
     <Compile Include="Assets\Scripts\Editor\LevelDataEditor.cs" />
     <Compile Include="Assets\Scripts\Level\FogComponent.cs" />
+    <Compile Include="Assets\Scripts\Resource\ResourceProductionComponent.cs" />
     <Compile Include="Assets\Scripts\Configuration\LevelItemType.cs" />
     <Compile Include="Assets\Scripts\Battle\DeadComponent.cs" />
     <Compile Include="Assets\Scripts\UI\TimeFadeComponent.cs" />

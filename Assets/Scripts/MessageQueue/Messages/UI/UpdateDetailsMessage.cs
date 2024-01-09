@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Message.UI
+namespace RTS.Message.UI
 {
     public class UpdateDetailsMessage : IMessage
     {
