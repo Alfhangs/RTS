@@ -4,5 +4,6 @@ using System;
 public enum UnitType 
 {
     Warrior,
-    Mage
+    Mage,
+    Tower
 }

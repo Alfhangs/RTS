@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 namespace RTS.Level
@@ -24,6 +25,7 @@ namespace RTS.Level
             Instance = this;
             Units = new List<GameObject>();
             _inventory = new InventoryManager();
+            _inventory.UpdateResource(ResourceType.Gold, 100);
         }
 
         private void Start()
@@ -56,6 +58,21 @@ namespace RTS.Level
         public int GetResource(ResourceType type)
         {
             return _inventory.GetResource(type);
+        }
+
+        public void AddBuilding(GameObject prefab)
+        {
+            GameObject building = Instantiate(prefab);
+            building.AddComponent<MeshCollider>();
+            building.AddComponent<NavMeshObstacle>();
+            building.transform.localScale = Vector3.one * 0.5f;
+            building.layer = LayerMask.NameToLayer("Resource");
+            building.tag = "Building";
+        }
+
+        public void AddTower(GameObject prefab)
+        {
+            Instantiate(prefab);
         }
     }
 }

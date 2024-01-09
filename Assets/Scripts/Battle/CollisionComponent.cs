@@ -65,7 +65,7 @@ public class CollisionComponent : MonoBehaviour
         else if (collision.gameObject.TryGetComponent<ProjectileComponent>(out var projectile))
         {
             collision.transform.gameObject.SetActive(false);
-            TakeDamageFromProjectile(projectile.Damage, collision.transform);
+            TakeDamageFromProjectile(projectile.Damage, collision.transform, projectile.IsTower);
         }
     }
 
@@ -105,7 +105,7 @@ public class CollisionComponent : MonoBehaviour
         }
     }
 
-    private void TakeDamageFromProjectile(float opponentAttack, Transform target)
+    private void TakeDamageFromProjectile(float opponentAttack, Transform target, bool isTower)
     {
         Debug.Log($"{gameObject.name}-{_character.ID} attacked by projectile");
         float damage = opponentAttack - _character.GetDefense();
@@ -118,7 +118,7 @@ public class CollisionComponent : MonoBehaviour
 
         _character.TakeDamage(damage);
 
-        StopAttacking(target, false);
+        StopAttacking(target, isTower);
     }
 
     private void StopAttacking(Transform target, bool opponentIsDead)

@@ -10,6 +10,7 @@ public class ProjectileComponent : MonoBehaviour
     private Rigidbody myRigidbody;
 
     public float Damage;
+    public bool IsTower;
 
     private void Awake()
     {
@@ -25,11 +26,12 @@ public class ProjectileComponent : MonoBehaviour
         }
     }
 
-    public void Setup(Vector3 position, Quaternion rotation, float damage)
+    public void Setup(Vector3 position, Quaternion rotation, float damage, bool isTower)
     {
         transform.position = position;
         transform.rotation = rotation;
         Damage = damage;
+        IsTower = isTower;
 
         countdown = timeToLive;
         myRigidbody.velocity = transform.rotation * Vector3.forward * speed;

@@ -17,7 +17,7 @@ namespace RTS
             GameObject fireball = SpawnObject();
             fireball.SetLayerMaskToAllChildren("Unit");
             ProjectileComponent projectile = fireball.GetComponent<ProjectileComponent>();
-            projectile.Setup(message.Position, message.Rotation, message.Damage);
+            projectile.Setup(message.Position, message.Rotation, message.Damage, message.IsTower);
         }
     }
 }

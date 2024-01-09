@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 7653715846413076127}
   - component: {fileID: 9144936834829754390}
   - component: {fileID: 9144936834829754391}
+  - component: {fileID: 9144936834829754392}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -865,6 +866,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _resource: {fileID: 11400000, guid: 49a385eb50140974bb1ca34de41c39c3, type: 2}
+--- !u!114 &9144936834829754392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2249015853847567590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739cdc3afba3b6945b066cf34e2e6748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  _tag: Building
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
